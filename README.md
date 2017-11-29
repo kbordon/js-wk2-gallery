@@ -20,14 +20,18 @@ api calls
 
 for blue
 https://www.rijksmuseum.nl/api/en/collection?key=moCVi0zd&format=json&f.normalized32Colors.hex=%20%234019B1&pageSize=100
-  for one blue
-  https://www.rijksmuseum.nl/api/en/collection/NG-2011-6-20?key=moCVi0zd&format=json
+  for one blue this one had no web image :(
+  <!-- https://www.rijksmuseum.nl/api/en/collection/NG-2011-6-20?key=moCVi0zd&format=json -->
+
+  special blue with paper material
+  https://www.rijksmuseum.nl/en/search?f=1&p=1&ps=12&f.normalized32Colors.hex=%234279DB&material=paper&st=OBJECTS&ii=0
 
 for red
 https://www.rijksmuseum.nl/api/en/collection?key=moCVi0zd&format=json&f.normalized32Colors.hex=%20%23DE4153
 
 gold
-https://www.rijksmuseum.nl/en/search?f=1&p=1&ps=12&material=gold%20(metal)&f.normalized32Colors.hex=%20%23E09714&st=OBJECTS&ii=3
+<!-- https://www.rijksmuseum.nl/en/search?f=1&p=1&ps=12&material=gold%20(metal)&f.normalized32Colors.hex=%20%23E09714&st=OBJECTS&ii=3 -->
+https://www.rijksmuseum.nl/api/en/collection?key=moCVi0zd&format=json&material=gold%20(metal)&f.normalized32Colors.hex=%20%23E09714
 
 
 # Title
