@@ -1,71 +1,65 @@
-.red-door {
-  overflow: hidden; }
-  .red-door img {
-    height: 950px;
-    width: 300px;
-    object-fit: cover;
-    margin-top: -450px;
-    margin-left: -100px; }
-
-.polaroid-frame {
-  background-image: url("https://github.com/lowesusannah/corkboard/blob/master/img/polaroid.png?raw=true"); }
-
-.ornate-frame {
-  height: 200px;
-  background-image: url("https://nrs.harvard.edu/urn-3:HUAM:VRS86369_dynmc");
-  background-size: 9em;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.ornate-frame img {
-  height: 100%; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
 body {
   height: 100vh;
-  width: 100vw; }
-
+  width: 100vw;
+}
 .homepage-container {
   display: none;
+  // background-image: radial-gradient(lightgray 50%, transparent);
   background-color: lightgray;
   height: 100vh;
   width: 100vw;
-  justify-content: space-between; }
-
+  // display: flex;
+  justify-content: space-between;
+}
 .red-door-container-wall, .gold-door-container-wall, .blue-door-container-wall {
   align-self: center;
   display: flex;
   justify-content: center;
-  width: 30%; }
+  width: 30%;
+}
 
 .red-door-container-wall {
+  // background-image: linear-gradient(to right, white 70%, transparent);
   background-color: white;
   width: 1000px;
   height: 400px;
+  // border: 1px solid lightgray;
+  // border-right: 0;
   transform: perspective(200px) rotateY(20deg);
   transition: transform 0.5s ease;
   overflow: hidden;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
-.red-door {
+.red-door{
   height: 400px;
   width: 150px;
   background-color: red;
   transform: perspective(-200px) rotateY(-20deg);
-  transition: transform 0.5s ease, box-shadow 0.5s ease-in, height 0.5s ease; }
+  transition: transform 0.5s ease, box-shadow 0.5s ease-in, height 0.5s ease;
+}
 
-.red-door:hover {
+.red-door:hover{
   height: 395px;
   width: 150px;
   transform: perspective(200px) rotateY(20deg);
-  box-shadow: 20px -10px 40px rgba(255, 192, 203, 0.8);
+  box-shadow: 20px -10px 40px rgba(255,192,203,0.8);
   /*animation: door-open 2s ease-in-out;
-  animation-fill-mode: forwards;*/ }
+  animation-fill-mode: forwards;*/
+}
+
+.gold-door-container-wall {
+  // padding-left: 200px;
+  // width: 500px;
+  // height: 270px;
+  // border: 1px solid lightgray;
+  // transform: perspective(200px) rotateY(0deg);
+  // transition: transform 0.5s ease, box-shadow 0.5s ease-in;
+  // overflow: hidden;
+  // display: flex;
+  // justify-content: center;
+}
 
 .gold-door {
   height: 270px;
@@ -74,38 +68,48 @@ body {
   transform: perspective(200px) rotateY(0deg);
   transition: height 0.5s ease, transform 0.5s ease, box-shadow 0.5s ease, left 0.5s ease;
   position: relative;
-  left: 0; }
+  left: 0;
+}
 
-.gold-door:hover {
+.gold-door:hover{
   transform: perspective(200px) rotateY(5deg);
   height: 280px;
   box-shadow: -20px -1px 70px yellow;
   left: 3px;
-  /*left: 200px;*/ }
+  /*left: 200px;*/
+}
 
 .blue-door-container-wall {
+  // background-image: linear-gradient(to left, white 70%, transparent);
   background-color: white;
   width: 1000px;
   height: 400px;
+  // border: 1px solid lightgray;
+  // border-left: 0;
+  // transition: transform 0.5s ease, box-shadow 0.5s ease-in;
   overflow: hidden;
   display: flex;
   justify-content: center;
-  transform: perspective(200px) rotateY(-20deg); }
+  transform: perspective(200px) rotateY(-20deg);
+}
 
 .blue-door {
   height: 400px;
   width: 150px;
   background-color: blue;
   transform: perspective(-200px) rotateY(-20deg);
-  transition: transform 0.5s ease, box-shadow 0.5s ease-in, height 0.5s ease; }
+  transition: transform 0.5s ease, box-shadow 0.5s ease-in, height 0.5s ease;
+}
 
-.blue-door:hover {
+.blue-door:hover{
   height: 395px;
   transform: perspective(1000px) rotateY(-25deg);
-  box-shadow: -20px 0px 40px rgba(0, 255, 255, 0.8); }
+  box-shadow: -20px 0px 40px rgba(0,255,255,0.8);
+}
 
 .red-room-container {
   height: 100%;
-  width: 100%; }
+  width: 100%; 
+}
 
-/*# sourceMappingURL=master.css.map */
+//

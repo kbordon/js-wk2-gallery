@@ -1,0 +1,27 @@
+.red-door {
+  overflow: hidden;
+  img {
+    height: 950px;
+    width: 300px;
+    object-fit: cover;
+    margin-top: -450px;
+    margin-left: -100px;
+  }
+}
+
+
+.polaroid-frame {
+  background-image: url('https://github.com/lowesusannah/corkboard/blob/master/img/polaroid.png?raw=true');
+}
+
+.ornate-frame {
+  height: 200px;
+  background-image: url('https://nrs.harvard.edu/urn-3:HUAM:VRS86369_dynmc');
+  background-size: 9em;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.ornate-frame img {
+  height: 100%;
+}

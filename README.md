@@ -50,7 +50,7 @@ https://www.rijksmuseum.nl/api/en/collection?key=moCVi0zd&format=json&material=g
 ## Setup/Installation Requirements
 
 1. Clone this repository.
-  * https://github.com/brandonkudo/Javascipt-wk1-Code-Review-Super-Galactic-Age-Calculator.git
+  * 
 2. Type npm install in Terminal.
 3. Type bower install in Terminal.
 4. Type gulp serve.
