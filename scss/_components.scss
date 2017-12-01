@@ -9,7 +9,6 @@
   }
 }
 
-
 .polaroid-frame {
   background-image: url('https://github.com/lowesusannah/corkboard/blob/master/img/polaroid.png?raw=true');
 }
@@ -18,8 +17,9 @@
   height: 200px;
   background-image: url('https://nrs.harvard.edu/urn-3:HUAM:VRS86369_dynmc');
   background-size: 9em;
-  background-position: center; 
+  // background-position: center;
   background-repeat: no-repeat;
+  margin: 20px; 
 }
 
 .ornate-frame img {

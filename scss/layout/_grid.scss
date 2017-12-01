@@ -109,7 +109,42 @@ body {
 
 .red-room-container {
   height: 100%;
-  width: 100%; 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  .container-one {
+    min-width: 50%;
+    min-height: 50%;
+    flex-basis: 1;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+  }
+  .container-two {
+    min-width: 50%;
+    min-height: 50%;
+    flex-basis: 2;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+  }
+  .container-three {
+    min-width: 33%;
+    min-height: 100%;
+    flex-basis: 1;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    .ornate-frame {
+      height: 500px;
+      width: 500px;
+      background-size: contain;
+      overflow: hidden;  
+    }
+  }
 }
 
 //
